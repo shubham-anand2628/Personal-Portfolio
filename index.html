@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(29, 29, 128);
+        }
+
+        nav .navright ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            font-size: 1.2rem;
+            color: yellowgreen;
+        }
+
+        .navleft {
+            font-size: 1.5rem;
+        }
+
+        .FirstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 70px 0;
+        }
+
+        .FirstSection>div {
+            width: 30%;
+
+        }
+
+        .leftsection {
+
+            font-size: 3rem;
+
+        }
+
+        .leftsection .btn {
+            padding: 12px;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+            color: blue;
+        }
+        
+        
+
+        .leftsection .btn a {
+            text-decoration: none;
+
+        }
+
+        .leftsection .btn:hover {
+            background-color: blueviolet;
+            border-radius: 20px;
+            font-size: 1.2rem;
+        }
+
+        .rightsection img {
+            width: 80%;
+            margin: 50px 0;
+        }
+
+        .purple {
+            color: rgb(129, 130, 186);
+        }
+
+        #element {
+            color: blueviolet;
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+        }
+
+        .grey {
+            color: grey;
+
+        }
+
+        footer {
+            background-color: rgb(220, 108, 16);
+            height: 230px;
+
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 120px;
+            justify-content: space-evenly;
+        }
+   .footer .footer-first{
+    text-shadow: 10px 10px 5px rgb(7, 9, 10);
+    transition: 0.5s;
+   }
+        .footer ul {
+            list-style: none;
+        }
+        .footer ul li:hover{
+            color: black;
+        }
+        .mid-section{
+            display: flex;
+            width: 80%;
+            height: 500px;
+            justify-content: center;
+            text-align: center;
+          
+            padding: 20px;
+        } 
+        .mid-section .row{
+            display: flex;
+        }
+        
+     .footer-second a
+   {
+       text-decoration: none;
+       
+       color: black;
+   }
+   .footer-second a :hover
+   {
+    font-size: larger;
+    text-shadow: 1cap;
+   }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+
+            <div class="navleft">
+                Shubham's Portfolio
+
+            </div>
+            <div class="navright">
+                <ul>
+                    <a href="index.html">
+                        <li>Home
+                    </a></li>
+                    <a href="aboutus.html">
+                        <li>About
+                    </a></li>
+                    
+                    <a href="projects.html">
+                        <li>Projects
+                    </a></li>
+                    <a href="contact.html">
+                        <li>Contact me
+                    </a></li>
+
+                </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="FirstSection">
+            <div class="leftsection">Hi, My Name is <span class="purple">Shubham </span>
+                <div> and I am a Passionate</div>
+
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn"><a href="/SHUBHAM's Resume .pdf" target="blank">Download Resume </button></a>
+                    <button class="btn"><a href="https://github.com/shubham-anand2628" target="_blank">Visit
+                            Github</button></a>
+                    <button class="btn"><a href="https://www.linkedin.com/in/shubham-anand-81a5a8184/"
+                            target="_blank">Visit Linkedin</button></a>
+                </div>
+            </div>
+            <div class="rightsection"><img src="dev.png " alt=""></div>
+        </section>
+        <section class="secondSection">
+            <span class="grey">What i've done so far</span>
+            <h1>Past Work Experience</h1>
+
+            <div class="mid-section" text-center>
+                <div class="row">
+                    <div class="col">
+                        <div class="card1" >
+                            <img src="tnq.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col">
+                        <div class="card2" >
+                            <img src="coincent.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                          </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Shubham's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <a href="index.html"><li>Home</li></a>
+                   <a href="aboutus.html"> <li>About</li></a>
+                    <a href="contact.html"><li>Contacts</li></a>
+                </ul>
+            </div>
+           
+           
+        </div>
+    </footer>
+    </div>
+
+
+    </div>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'App Developer', 'Video Editor'],
+            typeSpeed: 50,
+        });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
